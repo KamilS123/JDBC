@@ -19,13 +19,13 @@ public class Main {
             run.setName(UUID.randomUUID().toString());
             runDao.save(run);
 
-            for(int j = 1; j<10; j++) {
+            /*for(int j = 1; j<10; j++) {
                 Member member = new Member();
                 member.setName(UUID.randomUUID().toString());
                 member.setLastName(UUID.randomUUID().toString());
                 member.setStartNumber((int)(Math.random()*100));
                 member.setId(run.getId());
-            }
+            }*/
         }
     }
 

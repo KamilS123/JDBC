@@ -10,6 +10,7 @@ public class Run {
     private Date startDate;
     private Integer memberLimit;
 
+
     public Run() {
     }
 
